@@ -1,0 +1,11 @@
+/* tokens.css */
+:root {
+    --primary-color: white;
+    --secondary-color: tan;
+    --font-family: "Cinzel", serif;
+    --font-size-normal: 16px;
+    --font-size-large: 25px;
+    --background-color: black;
+    --nav-color: salmon;
+    /* ... other design tokens ... */
+}

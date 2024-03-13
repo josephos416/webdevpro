@@ -1,0 +1,57 @@
+
+  
+body {
+    background-color: var(--background-color);
+    color: var(--text-light);
+    transition: background-color 0.3s, color 0.3s;
+    font-family: var(--font-family);
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: var(--primary-color);
+  }
+
+svg.icon {
+    display: inline;
+    height: 2em;
+    width: 2em;
+    vertical-align: top;
+    fill: currentColor;
+
+    background-color: white; /* Sets the background color to white */
+    display: inline-block;  /* Makes the background only as wide as the content */
+}
+
+
+
+
+
+.pagetitle{
+  
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+nav {
+    margin-left: 200px;
+    background-color: var(--nav-color); /* Light grey background */
+    border: 2px solid var(--nav-color); /* Grey border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px 20px; /* Space around the text */
+    width: 800px; 
+    text-decoration: none; /* Removes underline */
+    display: flex;
+    flex-direction: row; /* Default */
+    justify-content: space-evenly;
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+
+}
+.navbar a {
+  font-weight: bold;
+  color: var(--primary-color); /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  font-size:  var(--font-size-large); /* Size of the text */
+}
